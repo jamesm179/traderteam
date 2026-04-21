@@ -74,6 +74,21 @@ As the human operator, you interact primarily with **ATLAS**.
 
 ---
 
+## 5. System Verification (Testing)
+
+Before starting a new session or after making any manual file changes, run the verification suite to ensure all structures are intact and JSON files are valid.
+
+```bash
+bash run_tests.sh
+```
+
+This script performs:
+- **Structure Check:** Ensures all required agent directories and core files exist.
+- **Data Integrity:** Verifies that all JSON configuration and log files are correctly formatted and readable.
+- **Documentation Audit:** Confirms all strategic profiles and manuals are present in the root.
+
+---
+
 ## 5. The Evolution Protocol (Triggering Growth)
 
 If a trader is idle (e.g., GHOST > 30m), check `EVOLUTION_ENGINE.md` for the assigned task level.
